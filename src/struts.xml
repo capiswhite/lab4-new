@@ -1,0 +1,11 @@
+<struts>
+	<include file="struts-default.xml"/>
+	<package name="src" extends="struts-default">
+	<action name="bookinformation" class="lab2.bookinformationg">
+	<result>/queryshow.jsp</result>
+	</action>
+	<action name="bookshow" class="lab2.bookshow">
+	<result>/bookshow.jsp</result>
+	</action>
+	</package>
+</struts>
